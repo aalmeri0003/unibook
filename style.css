@@ -40,16 +40,29 @@ footer{
     background-color: #9eac92;
     color: white;
 }
-.back  { 
-    position: absolute; 
-    top: 50px; 
-    left: 50px; 
+.east  { 
+    position: relative; 
+    top: 0px; 
+    left: 5px; 
     z-index: 1; 
-    background-color: gray; }
-.front { 
-    position: absolute; 
-    top: 70px; 
-    left: 70px; 
+    background-color: #ded0be; 
+}
+.west  { 
+    position: relative; 
+    top: 0px; 
+    left: -5px; 
+    z-index: 1; 
+    background-color:  #ded0be }
+.north  { 
+    position: relative; 
+    top: -5px; 
+    left: 0px; 
     z-index: 2; 
-    background-color: orange; 
+    background-color:  #ded0be; }
+.south { 
+    position: relative; 
+    top: 5px; 
+    left: 0px; 
+    z-index: 1; 
+    background-color:  #ded0be
 }
