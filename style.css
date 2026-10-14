@@ -1,0 +1,42 @@
+/*Header and Main Design through all the 4 files*/
+body{
+    background-color: #FAEBD7;
+    font-family: Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: #7ea87e;
+
+}
+h1{
+    color: #256172;
+}
+nav{
+    background-color: #aa885e;
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: darkblue;
+    padding: 20px;
+    margin: 15px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #c1bbb4 ;
+}
+table{
+    border: 3px double burlywood;
+    box-shadow: 3px 3px 4px rgb(63, 117, 104);
+}
+th, td{
+    border: 3px solid burlywood;
+    padding: 8px;
+}
+th{
+    background-color:#7ea87e;
+}
+footer{
+    background-color: #9eac92;
+    color: white;
+}
