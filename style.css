@@ -40,6 +40,9 @@ footer{
     background-color: #9eac92;
     color: white;
 }
+.general{
+    color:  #ded0be;
+}
 .east  { 
     position: relative; 
     top: 0px; 
