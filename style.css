@@ -40,3 +40,16 @@ footer{
     background-color: #9eac92;
     color: white;
 }
+.back  { 
+    position: absolute; 
+    top: 50px; 
+    left: 50px; 
+    z-index: 1; 
+    background-color: gray; }
+.front { 
+    position: absolute; 
+    top: 70px; 
+    left: 70px; 
+    z-index: 2; 
+    background-color: orange; 
+}
