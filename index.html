@@ -9,7 +9,10 @@
 
 <body>
     <header>
-        <a href="about.html"> <img src="logo.jpg" alt="UniBook logo" width="120" height="120" /> </a>
+    <img src="logo.jpg" alt="UniBook logo" width="120" height="120" usemap="#logo" />
+        <map name="logo">
+            <area shape="rect" coords="0,0,120,120" href="about.html" alt="arealogo" />
+        </map>
         <h1>UniBook</h1>
     </header>
     <nav>
@@ -39,6 +42,12 @@
                     mixed with other content.
                 </span>
             </p>
+            <p style="text-align: center;">
+                <label>
+                    <b>Search:</b>
+                    <input type="text" name="Serbook" size="70" maxlength="100" />
+                </label>
+            </p>
         </article>
         <h2>Browse By Faculty</h2>
         <ul>
@@ -55,7 +64,7 @@
                 <caption><b>Faculty of Computing and Information Technology Books</b></caption>
                 <thead>
                     <tr>
-                        <th>Course Name</th>
+                        <th>Course Code</th>
                         <th>Book Name</th>
                         <th>Book Image</th>
                         <th>Version</th>
@@ -67,7 +76,7 @@
                     <tr>
                         <td>CPIS-358</td>
                         <td>Internet &amp; World Wide Web" By Harvey M. Deitel, Paul J. Deitel, Abbey Deitel</td>
-                        <td><img src="book1c.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book1c.png" alt="bookimgc1" width="80" height="100"></td>
                         <td>v5</td>
                         <td>160 SR</td>
                         <td>95 SR</td>
@@ -76,7 +85,7 @@
                         <td>CPIS-363</td>
                         <td>Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts,Tools, and Techniques
                             to Build Intelligent Systems</td>
-                        <td><img src="book2c.png" alt="bookimg" width="80" height="100"></td>    
+                        <td><img src="book2c.png" alt="bookimgc2" width="80" height="100"></td>    
                         <td>v1</td>
                         <td>200 SR</td>
                         <td>105 SR</td>
@@ -84,7 +93,7 @@
                     <tr>
                         <td>CPIS-342</td>
                         <td>Jiawei Han, Micheline Kamber and Jian Pei “Data Mining: Concepts and Techniques</td>
-                        <td><img src="book3c.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book3c.png" alt="bookimgc3" width="80" height="100"></td>
                         <td>v3</td>
                         <td>160 SR</td>
                         <td>75 SR</td>
@@ -99,7 +108,7 @@
                 <caption><b>The Engineering Books 2026</b></caption>
                 <thead>
                     <tr>
-                        <th>Course Name</th>
+                        <th>Course Code</th>
                         <th>Book Name</th>
                         <th>Book Image</th>
                         <th>Version</th>
@@ -111,7 +120,7 @@
                     <tr>
                         <td>MENG-201</td>
                         <td>Engineering Mechanics: Statics, R. C. Hibbeler</td>
-                        <td><img src="book1e.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book1e.png" alt="bookimge1" width="80" height="100"></td>
                         <td>v15</td>
                         <td>210 SR</td>
                         <td>125 SR</td>
@@ -119,7 +128,7 @@
                     <tr>
                         <td>MENG-230</td>
                         <td>Thermodynamics: An Engineering Approach, Çengel, Boles &amp; Kanoğlu</td>
-                        <td><img src="book2e.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book2e.png" alt="bookimge2" width="80" height="100"></td>
                         <td>v10</td>
                         <td>220 SR</td>
                         <td>165 SR</td>
@@ -127,7 +136,7 @@
                     <tr>
                         <td>MATH-202</td>
                         <td>Calculus: Early Transcendentals, James Stewart</td>
-                        <td><img src="book3e.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book3e.png" alt="bookimge3" width="80" height="100"></td>
                         <td>v9</td>
                         <td>170 SR</td>
                         <td>110 SR</td>
@@ -142,7 +151,7 @@
                 <caption><b>The Business Books 2026</b></caption>
                 <thead>
                     <tr>
-                        <th>Course Name</th>
+                        <th>Course Code</th>
                         <th>Book Name</th>
                         <th>Book Image</th>
                         <th>Version</th>
@@ -154,7 +163,7 @@
                     <tr>
                         <td>ECON-101</td>
                         <td>Principles of Economics, N. Gregory Mankiw</td>
-                        <td><img src="book1b.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book1b.png" alt="bookimgb1" width="80" height="100"></td>
                         <td>v10</td>
                         <td>140 SR</td>
                         <td>90 SR</td>
@@ -162,7 +171,7 @@
                     <tr>
                         <td>ACCT-201</td>
                         <td>Financial Accounting, Weygandt, Kimmel &amp; Kieso</td>
-                        <td><img src="book2b.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book2b.png" alt="bookimgb2" width="80" height="100"></td>
                         <td>v12</td>
                         <td>130 SR</td>
                         <td>65 SR</td>
@@ -170,7 +179,7 @@
                     <tr>
                         <td>MRKT-201</td>
                         <td>Principles of Marketing</td>
-                        <td><img src="book3b.png" alt="bookimg" width="80" height="100"></td>
+                        <td><img src="book3b.png" alt="bookimgb3" width="80" height="100"></td>
                         <td>v19</td>
                         <td>120 SR</td>
                         <td>65 SR</td>
@@ -184,15 +193,15 @@
     </main>
     <footer>
 
-        <p style="font-size: 20px">
+       <div style="font-size: 20px; text-align: right">
             
             <h3 class="title">About Us</h3>
             <a href="about.html"><img src="icoabo.png" alt="icon" width="90" height="90" class="below"></a>
             <img src="handab.png" alt="icon" width="45" height="45" class="above">
-            <b class="z">Customer Service</b>
             
-        </p>
-        
+            
+        </div>
+        <b class="z">Customer Service</b>
         <address>
             <a href="mailto:aalmeri0003@stu.kau.edu.sa">aalmeri0003@stu.kau.edu.sa</a><br />
             <a href="mailto:rbarnawi0015@stu.kau.edu.sa">rbarnawi0015@stu.kau.edu.sa</a>

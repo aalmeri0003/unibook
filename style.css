@@ -69,21 +69,21 @@ footer{
 .below{
     position: relative;
     z-index: 1;
-    left: 1250px;
 }
 .above{
     position: relative;
     z-index: 2;
-    left: 1225px;
+    left: -40px;
+
 }
 .title{
     position: relative;
     z-index: 3;
-    left: 1250px;
+    left: -40px;
 }
 .z{
     position: relative;
-    z-index: 4;
-    left: -100;
-
+}
+.place{
+    text-align: center;
 }
